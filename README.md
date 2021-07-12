@@ -4,6 +4,7 @@
 
 ```js
 const xentral = require('xentral-node-api')({
+  url: 'https://your-api-url.example',
   user: 'your-api-username',
   pass: 'your-api-password'
 });
