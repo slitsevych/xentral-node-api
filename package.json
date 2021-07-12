@@ -1,0 +1,32 @@
+{
+  "name": "xentral-node-api",
+  "version": "1.0.0",
+  "description": "Node module to access Xentral API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zenfulfillment/xentral-node-api.git"
+  },
+  "keywords": [
+    "xentral",
+    "api"
+  ],
+  "author": "Denis Ciccale (denis@zenfulfillment.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenfulfillment/xentral-node-api/issues"
+  },
+  "homepage": "https://github.com/zenfulfillment/xentral-node-api#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.2"
+  }
+}
