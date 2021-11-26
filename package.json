@@ -1,10 +1,11 @@
 {
   "name": "xentral-node-api",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Node module to access Xentral API",
   "main": "index.js",
   "scripts": {
-    "test": "mocha index.test.js"
+    "test": "mocha *.test.js",
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -21,12 +22,11 @@
   },
   "homepage": "https://github.com/zenfulfillment/xentral-node-api#readme",
   "dependencies": {
-    "bluebird": "^3.7.2",
-    "lodash": "^4.17.21",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.6"
+    "axios": "^0.24.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "eslint": "^8.3.0",
     "mocha": "^9.0.2"
   }
 }
